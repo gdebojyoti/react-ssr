@@ -16,6 +16,7 @@ app.use('/', (req, res) => {
       <head><title>Page title</title></head>
       <body>
         <div id="app">${content}</div>
+        <script src="bundle.js"></script>
       </body>
     </html>
   `

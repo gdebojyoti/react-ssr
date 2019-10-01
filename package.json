@@ -4,6 +4,7 @@
   "description": "Server side rendering with React, Webpack 4 and Babel 8 in 2019!",
   "main": "index.js",
   "scripts": {
+    "dev:build:client": "webpack --config config/webpack.client.js --watch",
     "dev:build:server": "webpack --config config/webpack.server.js --watch",
     "dev:server": "nodemon --watch build --exec \"node build/bundle.js\""
   },
