@@ -1,0 +1,25 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "Server side rendering with React, Webpack 4 and Babel 8 in 2019!",
+  "main": "index.js",
+  "scripts": {
+    "dev:build:server": "webpack --config config/webpack.server.js --watch",
+    "dev:server": "nodemon --watch build --exec \"node build/bundle.js\""
+  },
+  "author": "Debojyoti Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
